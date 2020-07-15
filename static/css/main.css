@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #d3d3d3; */
+}
+
+small,
+.alert > ul > li {
+  list-style-type: none;
+}
+
+.icon-main-nav {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  top: 6px;
+  margin-top: -12px;
+  margin-left: 2px;
+}
+
+.messages > li {
+  list-style-type: none;
+}
+
+.nav-item.dropdown:hover {
+  background-color: gray;
+}
